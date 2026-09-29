@@ -1,255 +1,160 @@
 {
- "updated": "2026-09-29T11:35:44.966202+00:00",
- "summary": "Public health services in the north and north-east are advertising Grade 3 and senior mental health psychology roles, and the clearest matches are the Northern Health leadership role, the RMH P3 role and the Eastern Health community role. Closing dates are unconfirmed for almost all roles (most are leads from listing pages), so check each is still open before applying.",
+ "updated": "2026-09-29T12:19:10.355880+00:00",
+ "summary": "Grade 2 roles near Eltham are thin but not empty, and most are in public or Mental Health and Wellbeing Local services. Several are fixed-term or casual, and none of the closing dates could be confirmed, so check each employer's site first.",
+ "criteria": "Grade 2 roles within 25 km of Eltham VIC 3095",
  "profile": [
   [
-   "Registration and qualifications",
-   "Endorsed Clinical Psychologist (AHPRA general + clinical endorsement), MPsych (Clinical), MAPS, MACPA"
+   "Registration",
+   "Endorsed Clinical Psychologist (general registration + clinical endorsement), MPsych (Clinical)"
   ],
   [
    "Experience",
-   "15+ years in community mental health, acute inpatient and complex care, including 2.5 years as Senior Practice Leader supervising staff"
+   "15+ years: community mental health, acute inpatient, complex care"
+  ],
+  [
+   "Seniority",
+   "2.5 years as Senior Practice Leader supervising staff"
   ],
   [
    "Current role",
-   "Clinical Psychologist, Emble Allied Health (Mill Park), private multidisciplinary practice, since 2023"
-  ],
-  [
-   "Past roles",
-   "United Minds; Neami National (community mental health, Partners in Recovery, senior practice leadership); Sunshine Hospital acute inpatient placement"
+   "Clinical Psychologist, private multidisciplinary allied health (since 2023)"
   ],
   [
    "Strengths",
-   "Risk assessment, complex case formulation, individual and group therapy, MDT work, GP and NDIS documentation, supervision"
+   "Risk assessment, complex formulation, individual and group therapy, MDT work, GP and NDIS documentation, supervision"
   ],
   [
-   "Approaches and presentations",
-   "CBT, ACT, MI, mindfulness, trauma-informed; anxiety, depression, OCD, emotional dysregulation, trauma, severe and persistent mental illness, complex health needs"
+   "Approaches",
+   "CBT, ACT, Motivational Interviewing, mindfulness-based, trauma-informed practice"
   ],
   [
-   "Home base and commute",
-   "Eltham VIC 3095; north and north-east are easy, west and south-east are long"
+   "Presentations",
+   "Anxiety, depression, OCD, emotional dysregulation, trauma, severe and persistent mental illness, chronic and complex health"
   ],
   [
-   "Open to",
-   "Public health, community mental health, complex care and private practice, including senior roles"
+   "Location",
+   "Eltham; north and north-east are easy commutes, west and south-east are long"
   ]
  ],
  "jobs": [
   {
-   "title": "Clinical leadership role across mental health units (exact title not shown)",
-   "employer": "Northern Health",
-   "location": "Epping region",
-   "work_type": "Advanced clinical practice combined with professional governance",
-   "pay": "Not listed",
-   "closes": "",
-   "url": "https://au.seek.com/jobs-in-healthcare-medical/psychology-counselling-social-work/in-Northern-Suburbs-Melbourne-VIC",
-   "match": "strong",
-   "why": "Senior clinical and governance work in the north matches her practice-leader experience. The URL is a listing page and the closing date is unconfirmed.",
-   "is_new": true
-  },
-  {
-   "title": "Clinical Psychologist – Engage – P3",
-   "employer": "Royal Melbourne Hospital",
-   "location": "Parkville",
-   "work_type": "Not listed",
-   "pay": "Not listed",
-   "closes": "",
-   "url": "https://au.indeed.com/Clinical-Health-Psychologist-jobs-in-Melbourne-VIC",
-   "match": "strong",
-   "why": "Senior grade, and the ad describes brief interventions for consumers with complex mental health needs. It appeared on an Indeed listing page dated 25 Sept 2026; the closing date is unconfirmed.",
-   "is_new": true
-  },
-  {
-   "title": "Mental Health Clinician (community)",
+   "title": "Clinical Psychologist Grade 2, Mental Health and Wellbeing Local",
    "employer": "Eastern Health",
-   "location": "Ringwood East / Ringwood",
-   "work_type": "Permanent full-time (per SEEK listing)",
+   "location": "Lilydale",
+   "distance_km": 18,
+   "grade": "Grade 2",
+   "work_type": "Permanent, full time",
    "pay": "Not listed",
    "closes": "",
-   "url": "https://careers.easternhealth.org.au/job/Ringwood-East-Mental-Health-Clinician-VIC-3135/1213740666/",
+   "url": "https://careers.easternhealth.org.au/job/Eastern-Health-Clinical-Psychologist-Grade-2-VIC-3128/1360642166/",
+   "source": "Eastern Health careers",
    "match": "strong",
-   "why": "Experienced-clinician, community-based role that is open to clinical psychologists. It was matched to the SEEK Ringwood listing, so confirm they are the same ad.",
+   "why": "Supports adults 26+ with mental health concerns, including co-occurring substance use. Fits her community mental health background and is permanent. The page is dated 25 July 2026, so it may have closed.",
    "is_new": true
   },
   {
-   "title": "Clinical Psychologist Grade 3, Perinatal Community Service / Parent Infant Program",
-   "employer": "Austin Health",
-   "location": "Heidelberg",
-   "work_type": "Not listed",
+   "title": "Community Mental Health Clinician, Merri-bek (Moreland) Community Team",
+   "employer": "Northern Health",
+   "location": "Coburg",
+   "distance_km": 17,
+   "grade": "Grade 2 (OT, Social Worker or Psychologist); Grade 3 for Registered Psychiatric Nurse",
+   "work_type": "Part-time (per Jora)",
    "pay": "Not listed",
    "closes": "",
-   "url": "https://careers.austin.org.au/job/Heidelberg-Clinical-Psychologist-Grade-3/1054464366/",
-   "match": "maybe",
-   "why": "Level and location are ideal, but the work is in-home attachment-focused therapy with parents of infants under 2, which is a specialty. It is not confirmed to still be open.",
+   "url": "https://cpcaus.com.au/jobposting/community-mental-health-clinician-coburg-northern-health/",
+   "source": "CPCA job board (copy); also listed on SEEK and Jora",
+   "match": "strong",
+   "why": "Medium to long-term specialist mental health support with assessment, interventions and care coordination. Closely matches her severe and persistent mental illness and community experience. It is a generic clinician role, not psychology-specific, and the employer's own ad wasn't reached.",
    "is_new": true
   },
   {
-   "title": "Clinical or Health Psychologist – Grade 3",
+   "title": "Grade 2 Psychologist, Towards Change Team (parental leave, max-term)",
+   "employer": "Access Health and Community",
+   "location": "Lilydale",
+   "distance_km": 18,
+   "grade": "Grade 2",
+   "work_type": "Max-term part-time (3 days/week), 17 Sep 2026 to 17 Sep 2027",
+   "pay": "Not listed",
+   "closes": "",
+   "url": "https://careers.accesshc.org.au/job-details/query/Max+Term+Part+time+Grade+2+Psychologist+Lilydale/in/Victoria/9778331/",
+   "source": "Access Health and Community careers (EthicalJobs copy dated 16 July 2026)",
+   "match": "maybe",
+   "why": "Trauma-informed care, ACT, DBT and mindfulness match her approaches. It is fixed-term and part-time, and the start date has passed, so it may be filled. The employer says it is assessing applications as they arrive.",
+   "is_new": true
+  },
+  {
+   "title": "Psychologist Grade 2 (P2), Thomas Embling Hospital",
+   "employer": "Forensicare",
+   "location": "Fairfield",
+   "distance_km": 12,
+   "grade": "Grade 2",
+   "work_type": "Not confirmed (full-time or part-time unknown)",
+   "pay": "$94,478.80 to $106,906.80 plus super and salary packaging",
+   "closes": "",
+   "url": "https://www.ethicaljobs.com.au/members/forensicareej/psychologist-grade-2-thomas-embling-hospital?sectors=6",
+   "source": "EthicalJobs (Indeed copy dated 2 September 2026)",
+   "match": "maybe",
+   "why": "Duties suit her risk assessment and complex formulation strengths. The ad seeks forensic mental health experience, which she lacks, and it may be an older version. Forensicare's own careers page wasn't reached.",
+   "is_new": true
+  },
+  {
+   "title": "Grade 2 Clinical Psychologist (casual), psychosocial oncology",
+   "employer": "Peter MacCallum Cancer Centre",
+   "location": "Parkville",
+   "distance_km": 15,
+   "grade": "Grade 2",
+   "work_type": "Casual",
+   "pay": "$47.81 to $54.10 per hour (from a 2025 ad, probably out of date)",
+   "closes": "",
+   "url": "https://au.seek.com/psychologist-hospital-jobs/in-Melbourne-CBD-&-Inner-Suburbs-Melbourne-VIC",
+   "source": "SEEK",
+   "match": "maybe",
+   "why": "Draws on her chronic and complex health experience. It is casual, and psycho-oncology is a specialty she hasn't done.",
+   "is_new": true
+  },
+  {
+   "title": "Casual Grade 2 Psychologist (hospital medical and mental health services)",
    "employer": "Royal Melbourne Hospital",
    "location": "Parkville",
-   "work_type": "Not listed",
+   "distance_km": 15,
+   "grade": "Grade 2",
+   "work_type": "Casual",
    "pay": "Not listed",
    "closes": "",
-   "url": "https://au.indeed.com/Clinical-Health-Psychologist-jobs-in-Melbourne-VIC",
+   "url": "",
+   "source": "SEEK",
    "match": "maybe",
-   "why": "Grade 3 suits her, but it may lean toward health psychology, which could not be confirmed. The URL is a listing page.",
+   "why": "A lead only: the listing couldn't be dated and the employer ad wasn't found. Check thermh.org.au. It covers medical and mental health services, which fit her experience.",
    "is_new": true
   },
   {
-   "title": "Mental Health Clinician – Whittlesea",
-   "employer": "Neami National",
-   "location": "South Morang",
-   "work_type": "Permanent, not-for-profit",
-   "pay": "Not listed",
-   "closes": "",
-   "url": "https://www.ethicaljobs.com.au/members/neami/mental-health-clinician-whittlesea-5",
-   "match": "maybe",
-   "why": "Good community mental health match in the north with a familiar employer, but it is clinician-level and the closing date is unconfirmed.",
-   "is_new": true
-  },
-  {
-   "title": "Senior Clinical Psychologist (complex and chronic health conditions)",
-   "employer": "Western Health",
-   "location": "West Melbourne",
+   "title": "Grade 2 Psychologist, chronic pain",
+   "employer": "Merri Health / Holstep Health",
+   "location": "Not listed (Melbourne north)",
+   "distance_km": 15,
+   "grade": "Grade 2",
    "work_type": "Not listed",
    "pay": "Not listed",
    "closes": "",
-   "url": "https://www.careers.vic.gov.au/job/senior-clinical-psychologist-70695",
+   "url": "",
+   "source": "Search result (site not stated)",
    "match": "maybe",
-   "why": "Matches her complex-care strengths, but the west is a long commute and no closing date was visible.",
+   "why": "The ad was undated and few details were found. Chronic pain suits her chronic and complex health experience. Check the employer directly.",
    "is_new": true
   },
   {
    "title": "Clinical Psychologist Grade 2, Psychological Trauma Recovery Outpatient Service",
    "employer": "Austin Health",
-   "location": "Heidelberg Repat",
-   "work_type": "Fixed-term full-time, part-time considered, hybrid onsite/remote",
+   "location": "Heidelberg Repatriation Hospital, Heidelberg",
+   "distance_km": 9,
+   "grade": "Grade 2",
+   "work_type": "Fixed-term, full-time (part-time considered); hybrid onsite/remote possible",
    "pay": "Not listed",
    "closes": "",
    "url": "https://careers.austin.org.au/job/Heidelberg-Clinical-Psychologist-Grade-2/1059795966/",
+   "source": "Austin Health careers",
    "match": "maybe",
-   "why": "Trauma work suits her, but Grade 2 is below her level and the term is fixed.",
-   "is_new": true
-  },
-  {
-   "title": "Clinical Psychologist or Psychologist",
-   "employer": "Northern Psychology Centre",
-   "location": "Preston / Northcote",
-   "work_type": "Private practice, ongoing vacancy",
-   "pay": "Not listed",
-   "closes": "Ongoing",
-   "url": "https://www.northernpsychology.org/clinical-psychologist-or-psychologist",
-   "match": "maybe",
-   "why": "Easy commute and includes free supervision for the first three months, but it is a general private caseload with no pay model shown.",
-   "is_new": true
-  },
-  {
-   "title": "Psychologist, Adolescent Inpatient Psychiatric Unit",
-   "employer": "Austin Health",
-   "location": "Heidelberg",
-   "work_type": "Not listed",
-   "pay": "Not listed",
-   "closes": "",
-   "url": "https://au.indeed.com/Clinical-Health-Psychologist-jobs-in-Melbourne-VIC",
-   "match": "maybe",
-   "why": "Draws on her acute inpatient background, but it is adolescent-only. The URL is a listing page.",
-   "is_new": true
-  },
-  {
-   "title": "ICYMHS Clinical Psychologist G4",
-   "employer": "Victorian Government / public mental health (site unclear)",
-   "location": "Melbourne",
-   "work_type": "Not listed",
-   "pay": "Not listed",
-   "closes": "",
-   "url": "https://au.indeed.com/q-psychologist-l-melbourne-vic-jobs.html",
-   "match": "maybe",
-   "why": "Grade 4 is a senior step up, but it is infant, child and youth work and the employer and site are unclear. The page shows applications closing Tuesday 6 October 2026, but that date could not be tied to this ad.",
-   "is_new": true
-  },
-  {
-   "title": "Central Infant and Child Community Team",
-   "employer": "Austin Health",
-   "location": "Heidelberg",
-   "work_type": "Ongoing part-time, 30.4 hrs/week, open to Grade 3 Clinical Psychologists",
-   "pay": "Not listed",
-   "closes": "",
-   "url": "https://au.seek.com/Austin-Health-jobs/in-Heidelberg-VIC-3084",
-   "match": "maybe",
-   "why": "Level and location fit, but it is child and infant work, not adult. The URL is a listing page.",
-   "is_new": true
-  },
-  {
-   "title": "Senior role leading psychological practice nationally",
-   "employer": "Avina",
-   "location": "Not listed",
-   "work_type": "National lead role: leading psychological practice and mentoring clinicians",
-   "pay": "Not listed",
-   "closes": "",
-   "url": "https://www.seek.com.au/clinical-psychologist-jobs/in-South-Melbourne-VIC-3205",
-   "match": "maybe",
-   "why": "Uses her supervision skills, but it is likely more leadership than clinical work. The URL is a listing page.",
-   "is_new": true
-  },
-  {
-   "title": "Psychologist with AHPRA endorsement (casual)",
-   "employer": "The Melbourne Clinic",
-   "location": "Richmond",
-   "work_type": "Casual; requires a registered psychologist with AHPRA endorsement",
-   "pay": "Not listed",
-   "closes": "",
-   "url": "https://au.indeed.com/q-casual-clinical-psychologist-l-melbourne-vic-jobs.html",
-   "match": "maybe",
-   "why": "Acute private psychiatric work, but casual hours are less secure than her current role. The URL is a listing page.",
-   "is_new": true
-  },
-  {
-   "title": "Clinical Psychologist (older adult community mental health), Grade 2",
-   "employer": "Royal Melbourne Hospital",
-   "location": "Parkville",
-   "work_type": "Psychologist Grade 2 (PK1–PK4)",
-   "pay": "Not listed",
-   "closes": "",
-   "url": "https://au.indeed.com/m/jobs?q=Clinical+Psychologist&l=Melbourne",
-   "match": "maybe",
-   "why": "Community-based work is a good fit, but Grade 2 is below her level and it is older-adult specific. The URL is a listing page.",
-   "is_new": true
-  },
-  {
-   "title": "Clinical Psychologist / Psychologist",
-   "employer": "Seed Psychology",
-   "location": "Brunswick East",
-   "work_type": "Private practice, set-your-own-fees billing",
-   "pay": "Not listed",
-   "closes": "",
-   "url": "https://au.indeed.com/Clinical-Health-Psychologist-jobs-in-Melbourne-VIC",
-   "match": "maybe",
-   "why": "Commutable, but fee-share contracting is a step away from a salaried role. The URL is a listing page.",
-   "is_new": true
-  },
-  {
-   "title": "Psychologist",
-   "employer": "Kare Psychology",
-   "location": "Melbourne (suburb not shown)",
-   "work_type": "Private",
-   "pay": "Base rates of $115–170 per hour",
-   "closes": "",
-   "url": "https://au.seek.com/clinical-psychologist-jobs/in-All-Melbourne-VIC",
-   "match": "maybe",
-   "why": "Pay is listed, but the location is unknown and the ad came from a July 2026 page, so it may be stale. The URL is a listing page.",
-   "is_new": true
-  },
-  {
-   "title": "Lead Specialist Community Care",
-   "employer": "Not named (public youth mental health service)",
-   "location": "North-west Melbourne",
-   "work_type": "Lead role at Victoria's first standalone public Youth Mental Health Service",
-   "pay": "Not listed",
-   "closes": "",
-   "url": "https://www.seek.com.au/senior-clinical-psychologist-jobs/in-All-Melbourne-VIC",
-   "match": "maybe",
-   "why": "Senior, but youth-focused and the north-west is a longer commute. The URL is a listing page.",
+   "why": "Trauma treatment suits her and the site is close to home. It is fixed-term and may no longer be current. It includes a veterans group program and a Massed Prolonged Exposure pilot, a niche she hasn't listed.",
    "is_new": false
   }
  ]
