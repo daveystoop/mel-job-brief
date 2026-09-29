@@ -1,0 +1,31 @@
+name: Daily job brief
+
+on:
+  schedule:
+    - cron: "30 19 * * *"   # 19:30 UTC = 5:30am AEST / 6:30am AEDT
+  workflow_dispatch:         # lets you run it manually from the Actions tab
+
+permissions:
+  contents: write
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: pip install anthropic
+      - name: Find and score today's jobs
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+          MEL_PROFILE: ${{ secrets.MEL_PROFILE }}
+        run: python scripts/refresh.py
+      - name: Publish
+        run: |
+          git config user.name "job-brief-bot"
+          git config user.email "bot@users.noreply.github.com"
+          git add docs/jobs.json
+          git diff --staged --quiet || git commit -m "Daily brief $(date -u +%F)"
+          git push
