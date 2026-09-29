@@ -1,23 +1,23 @@
 {
- "updated": "2026-09-29T12:19:10.355880+00:00",
- "summary": "Grade 2 roles near Eltham are thin but not empty, and most are in public or Mental Health and Wellbeing Local services. Several are fixed-term or casual, and none of the closing dates could be confirmed, so check each employer's site first.",
+ "updated": "2026-09-29T23:08:47.678335+00:00",
+ "summary": "The market near Eltham is thin today. Eastern Health's permanent Grade 2 role in Lilydale is the only permanent full-time match, and the rest are casual, fixed-term or specialty roles. No closing dates could be confirmed, so check each ad is still open.",
  "criteria": "Grade 2 roles within 25 km of Eltham VIC 3095",
  "profile": [
   [
    "Registration",
-   "Endorsed Clinical Psychologist (general registration + clinical endorsement), MPsych (Clinical)"
+   "Endorsed Clinical Psychologist (AHPRA), MPsych (Clinical), MAPS, MACPA"
   ],
   [
    "Experience",
-   "15+ years: community mental health, acute inpatient, complex care"
+   "15+ years in community mental health, acute inpatient and complex care"
   ],
   [
-   "Seniority",
+   "Leadership",
    "2.5 years as Senior Practice Leader supervising staff"
   ],
   [
    "Current role",
-   "Clinical Psychologist, private multidisciplinary allied health (since 2023)"
+   "Clinical Psychologist, Emble Allied Health (private multidisciplinary), since 2023"
   ],
   [
    "Strengths",
@@ -25,20 +25,20 @@
   ],
   [
    "Approaches",
-   "CBT, ACT, Motivational Interviewing, mindfulness-based, trauma-informed practice"
+   "CBT, ACT, Motivational Interviewing, mindfulness-based, trauma-informed"
   ],
   [
    "Presentations",
-   "Anxiety, depression, OCD, emotional dysregulation, trauma, severe and persistent mental illness, chronic and complex health"
+   "Anxiety, depression, OCD, emotional dysregulation, trauma, severe and persistent mental illness, complex health needs"
   ],
   [
-   "Location",
-   "Eltham; north and north-east are easy commutes, west and south-east are long"
+   "Location and scope",
+   "Eltham; north and north-east easiest. Open to public, community, complex care and private roles, including senior"
   ]
  ],
  "jobs": [
   {
-   "title": "Clinical Psychologist Grade 2, Mental Health and Wellbeing Local",
+   "title": "Clinical Psychologist, Grade 2 – Mental Health and Wellbeing Local",
    "employer": "Eastern Health",
    "location": "Lilydale",
    "distance_km": 18,
@@ -49,113 +49,68 @@
    "url": "https://careers.easternhealth.org.au/job/Eastern-Health-Clinical-Psychologist-Grade-2-VIC-3128/1360642166/",
    "source": "Eastern Health careers",
    "match": "strong",
-   "why": "Supports adults 26+ with mental health concerns, including co-occurring substance use. Fits her community mental health background and is permanent. The page is dated 25 July 2026, so it may have closed.",
-   "is_new": true
+   "why": "Permanent Grade 2 community mental health role for adults 26+ with psychological distress, including co-occurring substance use. Page is dated 25 July 2026, so it may already be closed.",
+   "is_new": false
   },
   {
-   "title": "Community Mental Health Clinician, Merri-bek (Moreland) Community Team",
-   "employer": "Northern Health",
-   "location": "Coburg",
-   "distance_km": 17,
-   "grade": "Grade 2 (OT, Social Worker or Psychologist); Grade 3 for Registered Psychiatric Nurse",
-   "work_type": "Part-time (per Jora)",
-   "pay": "Not listed",
+   "title": "Mental Health Clinician",
+   "employer": "Neami National",
+   "location": "South Morang",
+   "distance_km": 10,
+   "grade": "No grade listed",
+   "work_type": "Full time",
+   "pay": "Health Professional Level 2 $94,927–$106,210 plus super, or Registered Nurse Level 2 $100,064–$105,123",
    "closes": "",
-   "url": "https://cpcaus.com.au/jobposting/community-mental-health-clinician-coburg-northern-health/",
-   "source": "CPCA job board (copy); also listed on SEEK and Jora",
-   "match": "strong",
-   "why": "Medium to long-term specialist mental health support with assessment, interventions and care coordination. Closely matches her severe and persistent mental illness and community experience. It is a generic clinician role, not psychology-specific, and the employer's own ad wasn't reached.",
-   "is_new": true
-  },
-  {
-   "title": "Grade 2 Psychologist, Towards Change Team (parental leave, max-term)",
-   "employer": "Access Health and Community",
-   "location": "Lilydale",
-   "distance_km": 18,
-   "grade": "Grade 2",
-   "work_type": "Max-term part-time (3 days/week), 17 Sep 2026 to 17 Sep 2027",
-   "pay": "Not listed",
-   "closes": "",
-   "url": "https://careers.accesshc.org.au/job-details/query/Max+Term+Part+time+Grade+2+Psychologist+Lilydale/in/Victoria/9778331/",
-   "source": "Access Health and Community careers (EthicalJobs copy dated 16 July 2026)",
+   "url": "https://www.ethicaljobs.com.au/members/neami/mental-health-clinician-south-morang-3?categories=41",
+   "source": "Ethical Jobs (also SEEK)",
    "match": "maybe",
-   "why": "Trauma-informed care, ACT, DBT and mindfulness match her approaches. It is fixed-term and part-time, and the start date has passed, so it may be filled. The employer says it is assessing applications as they arrive.",
+   "why": "Open-discipline clinician role, not psychologist-specific, but the pay matches Grade 2 and it is a short trip from home. Posted 10 July 2026. Neami's own portal ad was not found.",
    "is_new": true
   },
   {
-   "title": "Psychologist Grade 2 (P2), Thomas Embling Hospital",
-   "employer": "Forensicare",
-   "location": "Fairfield",
-   "distance_km": 12,
-   "grade": "Grade 2",
-   "work_type": "Not confirmed (full-time or part-time unknown)",
-   "pay": "$94,478.80 to $106,906.80 plus super and salary packaging",
-   "closes": "",
-   "url": "https://www.ethicaljobs.com.au/members/forensicareej/psychologist-grade-2-thomas-embling-hospital?sectors=6",
-   "source": "EthicalJobs (Indeed copy dated 2 September 2026)",
-   "match": "maybe",
-   "why": "Duties suit her risk assessment and complex formulation strengths. The ad seeks forensic mental health experience, which she lacks, and it may be an older version. Forensicare's own careers page wasn't reached.",
-   "is_new": true
-  },
-  {
-   "title": "Grade 2 Clinical Psychologist (casual), psychosocial oncology",
+   "title": "Grade 2 Clinical Psychologist, psychosocial oncology",
    "employer": "Peter MacCallum Cancer Centre",
-   "location": "Parkville",
-   "distance_km": 15,
+   "location": "Parkville (assumed; site not stated in the ad)",
+   "distance_km": 17,
    "grade": "Grade 2",
    "work_type": "Casual",
-   "pay": "$47.81 to $54.10 per hour (from a 2025 ad, probably out of date)",
+   "pay": "$94,478.80 to $106,906.80 full-time equivalent, pro-rated for casual hours",
    "closes": "",
-   "url": "https://au.seek.com/psychologist-hospital-jobs/in-Melbourne-CBD-&-Inner-Suburbs-Melbourne-VIC",
-   "source": "SEEK",
+   "url": "https://www.careers.vic.gov.au/job/psychologist-grade-2-57496",
+   "source": "Careers Victoria (also SEEK)",
    "match": "maybe",
-   "why": "Draws on her chronic and complex health experience. It is casual, and psycho-oncology is a specialty she hasn't done.",
+   "why": "Casual oncology role with the site unconfirmed. The Careers Vic ad is dated February 2026, but an August 2026 SEEK listing shows Peter Mac still seeking a Grade 2 for a flexible casual role.",
    "is_new": true
   },
   {
-   "title": "Casual Grade 2 Psychologist (hospital medical and mental health services)",
+   "title": "Casual Grade 2 Psychologist",
    "employer": "Royal Melbourne Hospital",
    "location": "Parkville",
-   "distance_km": 15,
+   "distance_km": 17,
    "grade": "Grade 2",
    "work_type": "Casual",
    "pay": "Not listed",
    "closes": "",
-   "url": "",
+   "url": "https://au.seek.com/research-psychologist-jobs",
    "source": "SEEK",
    "match": "maybe",
-   "why": "A lead only: the listing couldn't be dated and the employer ad wasn't found. Check thermh.org.au. It covers medical and mental health services, which fit her experience.",
+   "why": "Assessment and therapy across hospital medical and mental health services. Casual only with no guaranteed hours, and RMH advertises allied health vacancies internally first. The SEEK listing was about 12 days old, and the RMH ad itself wasn't visible.",
    "is_new": true
   },
   {
-   "title": "Grade 2 Psychologist, chronic pain",
-   "employer": "Merri Health / Holstep Health",
-   "location": "Not listed (Melbourne north)",
-   "distance_km": 15,
-   "grade": "Grade 2",
-   "work_type": "Not listed",
-   "pay": "Not listed",
+   "title": "Psychologist (Gender Service)",
+   "employer": "Royal Children's Hospital",
+   "location": "Parkville",
+   "distance_km": 17,
+   "grade": "Grade 2 or 3",
+   "work_type": "Part time, fixed term to 31/01/2027, 15.2 hours a fortnight (Thursdays)",
+   "pay": "$94,478.9–$112,517.6 a year, pro rata",
    "closes": "",
-   "url": "",
-   "source": "Search result (site not stated)",
+   "url": "https://au.seek.com/Centre-for-Clinical-Psychology-jobs/in-Melbourne-VIC-3000",
+   "source": "SEEK",
    "match": "maybe",
-   "why": "The ad was undated and few details were found. Chronic pain suits her chronic and complex health experience. Check the employer directly.",
+   "why": "Very small, short fixed-term role in a paediatric gender service, which she hasn't worked in. The URL is the SEEK listing page, as the RCH ad itself wasn't found.",
    "is_new": true
-  },
-  {
-   "title": "Clinical Psychologist Grade 2, Psychological Trauma Recovery Outpatient Service",
-   "employer": "Austin Health",
-   "location": "Heidelberg Repatriation Hospital, Heidelberg",
-   "distance_km": 9,
-   "grade": "Grade 2",
-   "work_type": "Fixed-term, full-time (part-time considered); hybrid onsite/remote possible",
-   "pay": "Not listed",
-   "closes": "",
-   "url": "https://careers.austin.org.au/job/Heidelberg-Clinical-Psychologist-Grade-2/1059795966/",
-   "source": "Austin Health careers",
-   "match": "maybe",
-   "why": "Trauma treatment suits her and the site is close to home. It is fixed-term and may no longer be current. It includes a veterans group program and a Massed Prolonged Exposure pilot, a niche she hasn't listed.",
-   "is_new": false
   }
  ]
 }
