@@ -1,15 +1,20 @@
 {
- "updated": "2026-09-29T23:08:47.678335+00:00",
- "summary": "The market near Eltham is thin today. Eastern Health's permanent Grade 2 role in Lilydale is the only permanent full-time match, and the rest are casual, fixed-term or specialty roles. No closing dates could be confirmed, so check each ad is still open.",
+ "updated": "2026-09-30T23:11:01.732691+00:00",
+ "today": "2026-10-01",
+ "summary": "The market is thin right now for Grade 2 psychologist roles near Eltham, and only one role is confirmed as a strong, open match. Austin Health's Psychologist G2 in Heidelberg is the one to apply for this week, with a reported close of 6 October 2026. Most other details come from search snippets, so check each ad before applying.",
  "criteria": "Grade 2 roles within 25 km of Eltham VIC 3095",
  "profile": [
   [
    "Registration",
-   "Endorsed Clinical Psychologist (AHPRA), MPsych (Clinical), MAPS, MACPA"
+   "Endorsed Clinical Psychologist (AHPRA general + clinical endorsement)"
+  ],
+  [
+   "Qualifications",
+   "MPsych (Clinical), MAPS, MACPA"
   ],
   [
    "Experience",
-   "15+ years in community mental health, acute inpatient and complex care"
+   "15+ years: community mental health, acute inpatient, complex care"
   ],
   [
    "Leadership",
@@ -17,55 +22,229 @@
   ],
   [
    "Current role",
-   "Clinical Psychologist, Emble Allied Health (private multidisciplinary), since 2023"
+   "Clinical Psychologist, Emble Allied Health (private), since 2023"
   ],
   [
-   "Strengths",
-   "Risk assessment, complex formulation, individual and group therapy, MDT work, GP and NDIS documentation, supervision"
-  ],
-  [
-   "Approaches",
-   "CBT, ACT, Motivational Interviewing, mindfulness-based, trauma-informed"
+   "Strengths and approaches",
+   "Risk assessment, complex formulation, MDT work; CBT, ACT, MI, trauma-informed"
   ],
   [
    "Presentations",
-   "Anxiety, depression, OCD, emotional dysregulation, trauma, severe and persistent mental illness, complex health needs"
+   "Anxiety, depression, OCD, trauma, severe and persistent mental illness, complex health needs"
   ],
   [
    "Location and scope",
-   "Eltham; north and north-east easiest. Open to public, community, complex care and private roles, including senior"
+   "Eltham VIC 3095; north and north-east easy; open to public, community, complex care, private and senior roles"
   ]
+ ],
+ "runs": [
+  {
+   "date": "2026-10-01",
+   "found": 11,
+   "new": 8,
+   "open": 13
+  }
  ],
  "jobs": [
   {
-   "title": "Clinical Psychologist, Grade 2 – Mental Health and Wellbeing Local",
+   "title": "Psychologist G2",
+   "employer": "Austin Health",
+   "location": "Heidelberg",
+   "distance_km": 8,
+   "grade": "Psychologist Grade 2",
+   "work_type": "Not listed",
+   "pay": "Not listed",
+   "closes": "Tue 6 Oct 2026, 11:59pm (from an Indeed copy; confirm on Austin's site)",
+   "url": "https://careers.austin.org.au/go/Mental-Health/7901410/",
+   "source": "Austin Health careers (plus an Indeed copy)",
+   "match": "strong",
+   "why": "Grade 2 role at a public hospital about 15 minutes from home, in Austin's Mental Health division. Posted 11 Sept 2026. The URL is Austin's mental health listings page, which includes this role.",
+   "first_seen": "2026-10-01",
+   "times_seen": 1,
+   "last_seen": "2026-10-01",
+   "key": "austinhealth|psychologistg2",
+   "status": "open",
+   "is_new": true
+  },
+  {
+   "title": "Clinical Psychologist Grade 2 or Grade 3 (part-time)",
+   "employer": "Not listed",
+   "location": "Heidelberg",
+   "distance_km": 8,
+   "grade": "Grade 2 or Grade 3",
+   "work_type": "Part-time",
+   "pay": "Not listed",
+   "closes": "",
+   "url": "",
+   "source": "SEEK (July snapshot)",
+   "match": "maybe",
+   "why": "Not verified. Close to home, but it only appears in a July SEEK snapshot and is worth a manual look.",
+   "first_seen": "2026-10-01",
+   "times_seen": 1,
+   "last_seen": "2026-10-01",
+   "key": "notlisted|clinicalpsychologistgrade2orgrade3",
+   "status": "open",
+   "is_new": true
+  },
+  {
+   "title": "Clinical Psychologist P3/P2 – Community Mental Health",
+   "employer": "Royal Melbourne Hospital",
+   "location": "Not listed",
+   "distance_km": 17,
+   "grade": "P3/P2",
+   "work_type": "Not listed",
+   "pay": "Not listed",
+   "closes": "",
+   "url": "",
+   "source": "Glassdoor",
+   "match": "maybe",
+   "why": "Not verified. Community mental health fits her background, but it needs a manual check for whether it is current. Distance is a rough estimate.",
+   "first_seen": "2026-10-01",
+   "times_seen": 1,
+   "last_seen": "2026-10-01",
+   "key": "royalmelbournehospital|clinicalpsychologistp3p2communitymentalhealth",
+   "status": "open",
+   "is_new": true
+  },
+  {
+   "title": "Clinical Psychologist Grade 2 (casual)",
+   "employer": "Peter MacCallum Cancer Centre",
+   "location": "Parkville",
+   "distance_km": 17,
+   "grade": "Grade 2",
+   "work_type": "Casual",
+   "pay": "Not listed",
+   "closes": "",
+   "url": "",
+   "source": "SEEK and Indeed",
+   "match": "maybe",
+   "why": "The earlier psychosocial oncology Grade 2 ad closed 2026-03-03. A casual Grade 2 listing still shows from September and may be a newer ad, so check petermac.org careers.",
+   "first_seen": "2026-10-01",
+   "times_seen": 1,
+   "last_seen": "2026-10-01",
+   "key": "petermaccallumcancercentre|clinicalpsychologistgrade2",
+   "status": "open",
+   "is_new": true
+  },
+  {
+   "title": "Psychologist Grade 2 (casual)",
+   "employer": "Royal Melbourne Hospital",
+   "location": "Parkville",
+   "distance_km": 17,
+   "grade": "Grade 2",
+   "work_type": "Casual",
+   "pay": "Not listed",
+   "closes": "",
+   "url": "",
+   "source": "SEEK and Indeed",
+   "match": "maybe",
+   "why": "Unconfirmed. It only appears in May to July snapshots with no closing date, so I can't call it open. The SEEK link provided was a search page, not the ad.",
+   "first_seen": "2026-10-01",
+   "times_seen": 1,
+   "last_seen": "2026-10-01",
+   "key": "royalmelbournehospital|psychologistgrade2",
+   "status": "open",
+   "is_new": true
+  },
+  {
+   "title": "Grade 2 Psychologist (parental leave cover)",
+   "employer": "Access Health",
+   "location": "Lilydale",
+   "distance_km": 25,
+   "grade": "Grade 2",
+   "work_type": "Parental leave cover",
+   "pay": "Not listed",
+   "closes": "",
+   "url": "",
+   "source": "Search results",
+   "match": "maybe",
+   "why": "Not verified. Cover started 17 Sept, so it is likely filled. Lilydale is at the edge of her commute range.",
+   "first_seen": "2026-10-01",
+   "times_seen": 1,
+   "last_seen": "2026-10-01",
+   "key": "accesshealth|grade2psychologist",
+   "status": "open",
+   "is_new": true
+  },
+  {
+   "title": "Psychologist Grade 2",
+   "employer": "Forensicare",
+   "location": "Fairfield",
+   "distance_km": 13,
+   "grade": "Grade 2",
+   "work_type": "Not listed",
+   "pay": "$94,478.80–$106,906.80",
+   "closes": "Closed Wed 30 Sep 2026, 1:59pm",
+   "url": "",
+   "source": "Search results",
+   "match": "maybe",
+   "why": "Closed today, so it is not applicable now. Worth watching in case Forensicare repeats the role.",
+   "first_seen": "2026-10-01",
+   "times_seen": 1,
+   "last_seen": "2026-10-01",
+   "key": "forensicare|psychologistgrade2",
+   "status": "open",
+   "is_new": true
+  },
+  {
+   "title": "Psychologist Grade 2 or 3",
+   "employer": "Alfred Health",
+   "location": "Prahran",
+   "distance_km": 21,
+   "grade": "Grade 2 or 3",
+   "work_type": "Not listed",
+   "pay": "Not listed",
+   "closes": "Closed (about 5 Jul 2026)",
+   "url": "",
+   "source": "Search results",
+   "match": "maybe",
+   "why": "Closed 14 days after its 21 Jun 2026 publish date, so it is not applicable now.",
+   "first_seen": "2026-10-01",
+   "times_seen": 1,
+   "last_seen": "2026-10-01",
+   "key": "alfredhealth|psychologistgrade2or3",
+   "status": "open",
+   "is_new": true
+  },
+  {
+   "title": "Clinical Psychologist Grade 2, Mental Health and Wellbeing Local",
    "employer": "Eastern Health",
    "location": "Lilydale",
-   "distance_km": 18,
+   "distance_km": 25,
    "grade": "Grade 2",
    "work_type": "Permanent, full time",
    "pay": "Not listed",
    "closes": "",
    "url": "https://careers.easternhealth.org.au/job/Eastern-Health-Clinical-Psychologist-Grade-2-VIC-3128/1360642166/",
    "source": "Eastern Health careers",
-   "match": "strong",
-   "why": "Permanent Grade 2 community mental health role for adults 26+ with psychological distress, including co-occurring substance use. Page is dated 25 July 2026, so it may already be closed.",
+   "match": "maybe",
+   "why": "Suits her trauma-informed, recovery-oriented work, but the ad was posted 26 Jun 2026, has no visible closing date and may already be filled. Lilydale is at the edge of her commute range.",
+   "first_seen": "2026-09-29",
+   "last_seen": "2026-10-01",
+   "times_seen": 2,
+   "key": "easternhealth|clinicalpsychologistgrade2mentalhealthandwellbeinglocal",
+   "status": "open",
    "is_new": false
   },
   {
    "title": "Mental Health Clinician",
    "employer": "Neami National",
    "location": "South Morang",
-   "distance_km": 10,
+   "distance_km": 14,
    "grade": "No grade listed",
-   "work_type": "Full time",
-   "pay": "Health Professional Level 2 $94,927–$106,210 plus super, or Registered Nurse Level 2 $100,064–$105,123",
+   "work_type": "Full time, permanent",
+   "pay": "Health Professional Level 2: $94,927–$106,210; or Registered Nurse Level 2: $100,064–$105,123",
    "closes": "",
    "url": "https://www.ethicaljobs.com.au/members/neami/mental-health-clinician-south-morang-3?categories=41",
-   "source": "Ethical Jobs (also SEEK)",
+   "source": "EthicalJobs",
    "match": "maybe",
-   "why": "Open-discipline clinician role, not psychologist-specific, but the pay matches Grade 2 and it is a short trip from home. Posted 10 July 2026. Neami's own portal ad was not found.",
-   "is_new": true
+   "why": "Pay is in line with Grade 2 and she has Neami experience. However it is a generalist clinician role rather than psychologist-specific, and I couldn't confirm it is still open.",
+   "first_seen": "2026-09-29",
+   "last_seen": "2026-10-01",
+   "times_seen": 2,
+   "key": "neaminational|mentalhealthclinician",
+   "status": "open",
+   "is_new": false
   },
   {
    "title": "Grade 2 Clinical Psychologist, psychosocial oncology",
@@ -80,7 +259,11 @@
    "source": "Careers Victoria (also SEEK)",
    "match": "maybe",
    "why": "Casual oncology role with the site unconfirmed. The Careers Vic ad is dated February 2026, but an August 2026 SEEK listing shows Peter Mac still seeking a Grade 2 for a flexible casual role.",
-   "is_new": true
+   "first_seen": "2026-09-29",
+   "last_seen": "2026-09-29",
+   "times_seen": 1,
+   "status": "open",
+   "is_new": false
   },
   {
    "title": "Casual Grade 2 Psychologist",
@@ -95,22 +278,31 @@
    "source": "SEEK",
    "match": "maybe",
    "why": "Assessment and therapy across hospital medical and mental health services. Casual only with no guaranteed hours, and RMH advertises allied health vacancies internally first. The SEEK listing was about 12 days old, and the RMH ad itself wasn't visible.",
-   "is_new": true
+   "first_seen": "2026-09-29",
+   "last_seen": "2026-09-29",
+   "times_seen": 1,
+   "status": "open",
+   "is_new": false
   },
   {
    "title": "Psychologist (Gender Service)",
    "employer": "Royal Children's Hospital",
    "location": "Parkville",
-   "distance_km": 17,
-   "grade": "Grade 2 or 3",
-   "work_type": "Part time, fixed term to 31/01/2027, 15.2 hours a fortnight (Thursdays)",
-   "pay": "$94,478.9–$112,517.6 a year, pro rata",
+   "distance_km": 16,
+   "grade": "No grade listed",
+   "work_type": "Not listed",
+   "pay": "Not listed",
    "closes": "",
    "url": "https://au.seek.com/Centre-for-Clinical-Psychology-jobs/in-Melbourne-VIC-3000",
-   "source": "SEEK",
+   "source": "Search results (Careers Victoria copy)",
    "match": "maybe",
-   "why": "Very small, short fixed-term role in a paediatric gender service, which she hasn't worked in. The URL is the SEEK listing page, as the RCH ad itself wasn't found.",
-   "is_new": true
+   "why": "Probably closed. The RCH ad I found is from 2022, and a Careers Victoria copy closed 2025-11-10.",
+   "first_seen": "2026-09-29",
+   "last_seen": "2026-10-01",
+   "times_seen": 2,
+   "key": "royalchildrenshospital|psychologist",
+   "status": "open",
+   "is_new": false
   }
  ]
 }
