@@ -3,14 +3,19 @@ Daily refresh for Mel's Job Brief.
 Runs on GitHub Actions each morning:
   1. Claude searches the web for open psychology roles in Melbourne and scores them against Mel's profile
   2. A second, tool-free call turns those notes into clean JSON (much more reliable than one step)
-  3. Writes docs/jobs.json, which the phone app reads
+  3. Merges them into a running history (docs/jobs.json): every role keeps the date it was first seen,
+     the date it was last seen, and whether it still looks open
 If anything goes wrong, yesterday's brief is left in place and the log says exactly why.
 """
 import json, os, re, sys, datetime
+from zoneinfo import ZoneInfo
 import anthropic
 
 MODEL = "claude-sonnet-5-5"
 OUT = "docs/jobs.json"
+STALE_DAYS = 7        # not seen for this many days -> marked "probably closed"
+FORGET_DAYS = 90      # closed roles older than this drop out of the history
+RECHECK_MAX = 30      # how many known open roles to ask the search to re-confirm
 
 # ---------- Mel's search criteria (edit these to change what she sees) ----------
 HOME = "Eltham VIC 3095"
@@ -46,12 +51,37 @@ if not profile_text:
 if not os.environ.get("ANTHROPIC_API_KEY", "").strip():
     fail("ANTHROPIC_API_KEY secret is missing or empty.")
 
-previous_urls = set()
+MEL_TZ = ZoneInfo("Australia/Melbourne")
+today_d = datetime.datetime.now(MEL_TZ).date()
+TODAY = today_d.isoformat()
+
+history, profile_rows, runs = {}, [], []
 try:
     with open(OUT) as f:
-        previous_urls = {j.get("url") for j in json.load(f).get("jobs", [])}
+        old = json.load(f)
+    profile_rows = old.get("profile", [])
+    runs = old.get("runs", [])
+    seed_day = (old.get("updated") or TODAY)[:10]
+    for j in old.get("jobs", []):
+        if j.get("title"):
+            j.setdefault("first_seen", seed_day)
+            j.setdefault("last_seen", seed_day)
+            j.setdefault("times_seen", 1)
+            j.pop("is_new", None)
+            history[id(j)] = j
 except Exception:
     pass
+
+
+def job_key(j):
+    norm = lambda x: re.sub(r"[^a-z0-9]+", "", str(x or "").lower())
+    return norm(j.get("employer"))[:40] + "|" + norm(re.sub(r"\(.*?\)", "", j.get("title", "")))[:60]
+
+
+history = {job_key(j): j for j in history.values()}
+by_url = {j.get("url"): k for k, j in history.items() if j.get("url")}
+known_open = [j for j in history.values() if j.get("status", "open") == "open"][:RECHECK_MAX]
+known_text = "\n".join(f"- {j['title']} | {j.get('employer','')} | {j.get('url','')}" for j in known_open) or "(none yet)"
 
 today = datetime.date.today().strftime("%A %d %B %Y")
 client = anthropic.Anthropic()
@@ -98,6 +128,10 @@ For each qualifying role, note: title, employer, suburb, estimated distance in k
 work type, pay as listed, closing date, the direct URL, which source you found it on, and a rating:
 strong (meets both criteria and suits her experience) or maybe (meets criteria but has a catch, e.g. no grade listed,
 fixed-term, a specialty she hasn't done), with one plain sentence on why.
+ALSO: these roles were open on earlier days. Check each one quickly and include it again in your notes if it is still open
+(say "closed" and skip it if the ad is gone or past its closing date):
+{known_text}
+
 Finish with one or two sentences on today's market for her. It's fine to report only a few roles if that's all that qualifies."""
 
 messages = [{"role": "user", "content": SEARCH_PROMPT}]
@@ -179,19 +213,69 @@ def in_criteria(j):
 before = len(jobs)
 jobs = [j for j in jobs if in_criteria(j)]
 print(f"Kept {len(jobs)} of {before} roles after the grade and distance check.")
+seen_keys = set()
+new_today = 0
 for j in jobs:
     j["match"] = j.get("match") if j.get("match") in rank else "maybe"
-    j["is_new"] = bool(previous_urls) and j.get("url") not in previous_urls
-jobs.sort(key=lambda j: (rank[j["match"]], not j["is_new"]))
+    k = by_url.get(j.get("url")) or job_key(j)
+    if k in seen_keys:
+        continue
+    seen_keys.add(k)
+    prev = history.get(k)
+    if prev:
+        merged = {**prev, **{f: v for f, v in j.items() if v not in ("", None)}}
+        merged["first_seen"] = prev.get("first_seen", TODAY)
+        merged["times_seen"] = int(prev.get("times_seen", 1)) + (prev.get("last_seen") != TODAY)
+    else:
+        merged = {**j, "first_seen": TODAY, "times_seen": 1}
+        new_today += 1
+    merged["last_seen"] = TODAY
+    merged["key"] = k
+    history[k] = merged
+
+
+def closing_passed(j):
+    txt = str(j.get("closes") or "")
+    for fmt in ("%d %B %Y", "%d %b %Y", "%Y-%m-%d", "%d/%m/%Y", "%A %d %B %Y", "%A, %d %B %Y"):
+        try:
+            return datetime.datetime.strptime(re.sub(r"(\d)(st|nd|rd|th)", r"\1", txt.strip()), fmt).date() < today_d
+        except ValueError:
+            continue
+    return False
+
+
+kept = []
+for k, j in history.items():
+    last = datetime.date.fromisoformat(j.get("last_seen", TODAY))
+    if closing_passed(j):
+        j["status"] = "closed"
+    elif (today_d - last).days > STALE_DAYS:
+        j["status"] = "closed"
+    else:
+        j["status"] = "open"
+    if j["status"] == "closed" and (today_d - last).days > FORGET_DAYS:
+        continue
+    j["is_new"] = j.get("first_seen") == TODAY
+    kept.append(j)
+
+# open first, then newest first, then best match
+kept.sort(key=lambda j: rank.get(j["match"], 1))
+kept.sort(key=lambda j: j.get("first_seen", ""), reverse=True)
+kept.sort(key=lambda j: j["status"] != "open")
+
+open_count = sum(j["status"] == "open" for j in kept)
+runs = (runs + [{"date": TODAY, "found": len(seen_keys), "new": new_today, "open": open_count}])
+runs = [r for i, r in enumerate(runs) if r["date"] not in {x["date"] for x in runs[i + 1:]}][-90:]
 
 out = {
     "updated": datetime.datetime.now(datetime.timezone.utc).isoformat(),
-    "summary": data.get("summary", "") or (f"No {WANTED_GRADE} roles within {RADIUS_KM} km today." if not jobs else ""),
+    "today": TODAY,
+    "summary": data.get("summary", "") or (f"No new {WANTED_GRADE} roles within {RADIUS_KM} km today." if not new_today else ""),
     "criteria": f"{WANTED_GRADE} roles within {RADIUS_KM} km of {HOME}",
-    "profile": data.get("profile", []),
-    "jobs": jobs,
+    "profile": data.get("profile") or profile_rows,
+    "runs": runs,
+    "jobs": kept,
 }
 with open(OUT, "w") as f:
     json.dump(out, f, indent=1, ensure_ascii=False)
-print(f"Wrote {len(jobs)} roles ({sum(j['match']=='strong' for j in jobs)} strong, "
-      f"{sum(j['is_new'] for j in jobs)} new).")
+print(f"Seen today: {len(seen_keys)} roles ({new_today} new). History now holds {len(kept)} roles, {open_count} open.")
