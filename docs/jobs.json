@@ -1,7 +1,7 @@
 {
- "updated": "2026-09-30T23:11:01.732691+00:00",
- "today": "2026-10-01",
- "summary": "The market is thin right now for Grade 2 psychologist roles near Eltham, and only one role is confirmed as a strong, open match. Austin Health's Psychologist G2 in Heidelberg is the one to apply for this week, with a reported close of 6 October 2026. Most other details come from search snippets, so check each ad before applying.",
+ "updated": "2026-10-01T23:23:28.887304+00:00",
+ "today": "2026-10-02",
+ "summary": "The market is thin today. Austin Health's Grade 2 psychologist role in Heidelberg is the only clear, current Grade 2 role close to home, and most other ads were closed, Grade 3, mixed-grade or too vague to confirm. Check Austin and the Neami role first.",
  "criteria": "Grade 2 roles within 25 km of Eltham VIC 3095",
  "profile": [
   [
@@ -25,16 +25,16 @@
    "Clinical Psychologist, Emble Allied Health (private), since 2023"
   ],
   [
-   "Strengths and approaches",
-   "Risk assessment, complex formulation, MDT work; CBT, ACT, MI, trauma-informed"
+   "Strengths",
+   "Risk assessment, complex formulation, individual and group therapy, MDT work, supervision"
   ],
   [
-   "Presentations",
-   "Anxiety, depression, OCD, trauma, severe and persistent mental illness, complex health needs"
+   "Approaches",
+   "CBT, ACT, Motivational Interviewing, mindfulness-based, trauma-informed"
   ],
   [
-   "Location and scope",
-   "Eltham VIC 3095; north and north-east easy; open to public, community, complex care, private and senior roles"
+   "Location",
+   "Eltham; north and north-east are easy commutes, west and south-east are long"
   ]
  ],
  "runs": [
@@ -43,28 +43,74 @@
    "found": 11,
    "new": 8,
    "open": 13
+  },
+  {
+   "date": "2026-10-02",
+   "found": 4,
+   "new": 2,
+   "open": 15
   }
  ],
  "jobs": [
   {
+   "title": "Mental Health Clinician – Case Manager",
+   "employer": "Not named in the ad (possibly Eastern Health)",
+   "location": "Box Hill",
+   "distance_km": 12,
+   "grade": "Grade 2 (psychologists)",
+   "work_type": "Permanent full time",
+   "pay": "Not listed",
+   "closes": "",
+   "url": "https://au.seek.com/mental-health-clinician-jobs/in-South-Morang-VIC-3752",
+   "source": "SEEK",
+   "match": "maybe",
+   "why": "The role is open to Grade 2 psychologists, as well as Grade 3 RPNs, OTs and social workers. It is case management rather than a pure therapy role. The employer's own ad could not be found, so it is unverified.",
+   "first_seen": "2026-10-02",
+   "times_seen": 1,
+   "last_seen": "2026-10-02",
+   "key": "notnamedintheadpossiblyeasternhealth|mentalhealthcliniciancasemanager",
+   "status": "open",
+   "is_new": true
+  },
+  {
+   "title": "Grade 2 Clinical or Health Psychologist (casual)",
+   "employer": "Royal Melbourne Hospital",
+   "location": "Parkville",
+   "distance_km": 19,
+   "grade": "Grade 2",
+   "work_type": "Casual",
+   "pay": "Not listed",
+   "closes": "",
+   "url": "https://au.seek.com/psychologist-jobs/in-All-Melbourne-VIC/casual-vacation",
+   "source": "SEEK",
+   "match": "maybe",
+   "why": "Offers assessment and therapy across medical and mental health services. It is casual only and could not be confirmed as open. The link is a generic SEEK search page.",
+   "first_seen": "2026-10-02",
+   "times_seen": 1,
+   "last_seen": "2026-10-02",
+   "key": "royalmelbournehospital|grade2clinicalorhealthpsychologist",
+   "status": "open",
+   "is_new": true
+  },
+  {
    "title": "Psychologist G2",
    "employer": "Austin Health",
    "location": "Heidelberg",
-   "distance_km": 8,
-   "grade": "Psychologist Grade 2",
+   "distance_km": 9,
+   "grade": "Psychologist G2",
    "work_type": "Not listed",
    "pay": "Not listed",
    "closes": "Tue 6 Oct 2026, 11:59pm (from an Indeed copy; confirm on Austin's site)",
    "url": "https://careers.austin.org.au/go/Mental-Health/7901410/",
-   "source": "Austin Health careers (plus an Indeed copy)",
+   "source": "Austin Health careers",
    "match": "strong",
-   "why": "Grade 2 role at a public hospital about 15 minutes from home, in Austin's Mental Health division. Posted 11 Sept 2026. The URL is Austin's mental health listings page, which includes this role.",
+   "why": "A Grade 2 role at a major public mental health service about ten minutes from home. It was still listed when checked. Closing date, pay and hours need checking on the ad.",
    "first_seen": "2026-10-01",
-   "times_seen": 1,
-   "last_seen": "2026-10-01",
+   "times_seen": 2,
+   "last_seen": "2026-10-02",
    "key": "austinhealth|psychologistg2",
    "status": "open",
-   "is_new": true
+   "is_new": false
   },
   {
    "title": "Clinical Psychologist Grade 2 or Grade 3 (part-time)",
@@ -84,7 +130,7 @@
    "last_seen": "2026-10-01",
    "key": "notlisted|clinicalpsychologistgrade2orgrade3",
    "status": "open",
-   "is_new": true
+   "is_new": false
   },
   {
    "title": "Clinical Psychologist P3/P2 – Community Mental Health",
@@ -104,7 +150,7 @@
    "last_seen": "2026-10-01",
    "key": "royalmelbournehospital|clinicalpsychologistp3p2communitymentalhealth",
    "status": "open",
-   "is_new": true
+   "is_new": false
   },
   {
    "title": "Clinical Psychologist Grade 2 (casual)",
@@ -124,7 +170,7 @@
    "last_seen": "2026-10-01",
    "key": "petermaccallumcancercentre|clinicalpsychologistgrade2",
    "status": "open",
-   "is_new": true
+   "is_new": false
   },
   {
    "title": "Psychologist Grade 2 (casual)",
@@ -144,7 +190,7 @@
    "last_seen": "2026-10-01",
    "key": "royalmelbournehospital|psychologistgrade2",
    "status": "open",
-   "is_new": true
+   "is_new": false
   },
   {
    "title": "Grade 2 Psychologist (parental leave cover)",
@@ -164,7 +210,7 @@
    "last_seen": "2026-10-01",
    "key": "accesshealth|grade2psychologist",
    "status": "open",
-   "is_new": true
+   "is_new": false
   },
   {
    "title": "Psychologist Grade 2",
@@ -184,7 +230,7 @@
    "last_seen": "2026-10-01",
    "key": "forensicare|psychologistgrade2",
    "status": "open",
-   "is_new": true
+   "is_new": false
   },
   {
    "title": "Psychologist Grade 2 or 3",
@@ -204,7 +250,7 @@
    "last_seen": "2026-10-01",
    "key": "alfredhealth|psychologistgrade2or3",
    "status": "open",
-   "is_new": true
+   "is_new": false
   },
   {
    "title": "Clinical Psychologist Grade 2, Mental Health and Wellbeing Local",
@@ -230,18 +276,18 @@
    "title": "Mental Health Clinician",
    "employer": "Neami National",
    "location": "South Morang",
-   "distance_km": 14,
+   "distance_km": 9,
    "grade": "No grade listed",
-   "work_type": "Full time, permanent",
-   "pay": "Health Professional Level 2: $94,927–$106,210; or Registered Nurse Level 2: $100,064–$105,123",
+   "work_type": "Full time",
+   "pay": "$94,927–$106,210 plus super",
    "closes": "",
    "url": "https://www.ethicaljobs.com.au/members/neami/mental-health-clinician-south-morang-3?categories=41",
-   "source": "EthicalJobs",
+   "source": "Ethical Jobs",
    "match": "maybe",
-   "why": "Pay is in line with Grade 2 and she has Neami experience. However it is a generalist clinician role rather than psychologist-specific, and I couldn't confirm it is still open.",
+   "why": "Fits her Neami and community mental health background, and the pay matches Grade 2. It is an open-discipline role, not psychologist-specific. It was posted 10 July 2026 with no closing date shown, so it may have closed.",
    "first_seen": "2026-09-29",
-   "last_seen": "2026-10-01",
-   "times_seen": 2,
+   "last_seen": "2026-10-02",
+   "times_seen": 3,
    "key": "neaminational|mentalhealthclinician",
    "status": "open",
    "is_new": false
