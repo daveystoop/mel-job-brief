@@ -1,7 +1,7 @@
 {
- "updated": "2026-10-03T22:22:03.327584+00:00",
- "today": "2026-10-04",
- "summary": "Grade 2 psychologist roles near Eltham are thin today. Only the Austin Health role looks firmly open, and it closes Tuesday 6 October 2026. The rest are casual, part-time or fixed-term, or can't be confirmed as still open.",
+ "updated": "2026-10-04T22:28:22.265943+00:00",
+ "today": "2026-10-05",
+ "summary": "Genuine Grade 2 roles near Eltham are thin today. The Austin Health Heidelberg role is the standout and closes Tuesday 6 Oct, while most others are casual, specialty or have no confirmed closing date.",
  "criteria": "Grade 2 roles within 25 km of Eltham VIC 3095",
  "profile": [
   [
@@ -14,27 +14,27 @@
   ],
   [
    "Experience",
-   "15+ years: community mental health, acute inpatient, complex care; 2.5 years as Senior Practice Leader"
+   "15+ years, incl. 2.5 years as Senior Practice Leader"
   ],
   [
    "Current role",
-   "Clinical Psychologist, private multidisciplinary allied health (since 2023)"
+   "Clinical Psychologist, private allied health (since 2023)"
+  ],
+  [
+   "Settings",
+   "Public health, community mental health, complex care, private practice; senior roles OK"
   ],
   [
    "Strengths",
-   "Risk assessment, complex case formulation, individual and group therapy, MDT work, GP and NDIS documentation, supervision"
+   "Risk assessment, complex formulation, individual/group therapy, MDT, GP/NDIS documentation, supervision"
   ],
   [
    "Approaches",
    "CBT, ACT, Motivational Interviewing, mindfulness-based, trauma-informed"
   ],
   [
-   "Presentations",
-   "Anxiety, depression, OCD, emotional dysregulation, trauma, severe and persistent mental illness, complex health needs"
-  ],
-  [
-   "Location and scope",
-   "Eltham; north and north-east easy, west and south-east long; open to public, community, complex care, private and senior roles"
+   "Home base",
+   "Eltham VIC 3095; north and north-east easy, west and south-east long"
   ]
  ],
  "runs": [
@@ -61,9 +61,95 @@
    "found": 8,
    "new": 5,
    "open": 24
+  },
+  {
+   "date": "2026-10-05",
+   "found": 10,
+   "new": 4,
+   "open": 28
   }
  ],
  "jobs": [
+  {
+   "title": "Youth Mental Health Clinician (SW2, OT2, P2, RPN3)",
+   "employer": "Northern Health",
+   "location": "Site not confirmed (Northern Health)",
+   "distance_km": 14,
+   "grade": "P2 (also open to SW2, OT2, RPN3)",
+   "work_type": "Not listed",
+   "pay": "Not listed",
+   "closes": "",
+   "url": "",
+   "source": "Northern Health",
+   "match": "maybe",
+   "why": "Public community-style mental health role in the north that includes a P2 stream. The closing date and site could not be confirmed.",
+   "first_seen": "2026-10-05",
+   "times_seen": 1,
+   "last_seen": "2026-10-05",
+   "key": "northernhealth|youthmentalhealthclinician",
+   "status": "open",
+   "is_new": true
+  },
+  {
+   "title": "Perinatal Mental Health Psychologist",
+   "employer": "Northern Health",
+   "location": "Epping area",
+   "distance_km": 13,
+   "grade": "No grade listed",
+   "work_type": "Not listed",
+   "pay": "Not listed",
+   "closes": "",
+   "url": "",
+   "source": "Northern Health",
+   "match": "maybe",
+   "why": "Public mental health psychologist role in an easy commute area. The grade and closing date could not be confirmed.",
+   "first_seen": "2026-10-05",
+   "times_seen": 1,
+   "last_seen": "2026-10-05",
+   "key": "northernhealth|perinatalmentalhealthpsychologist",
+   "status": "open",
+   "is_new": true
+  },
+  {
+   "title": "Clinical Psychologist",
+   "employer": "Eastern Health",
+   "location": "Box Hill",
+   "distance_km": 15,
+   "grade": "No grade listed",
+   "work_type": "Permanent full time",
+   "pay": "Not listed",
+   "closes": "",
+   "url": "",
+   "source": "Eastern Health careers (Mental Health and Wellbeing category page)",
+   "match": "maybe",
+   "why": "Permanent public mental health role that still appears on the category page. No grade or closing date was shown.",
+   "first_seen": "2026-10-05",
+   "times_seen": 1,
+   "last_seen": "2026-10-05",
+   "key": "easternhealth|clinicalpsychologist",
+   "status": "open",
+   "is_new": true
+  },
+  {
+   "title": "Psychologist, Grade 2 or 3 (Eating Disorders)",
+   "employer": "Royal Children's Hospital",
+   "location": "Parkville",
+   "distance_km": 14,
+   "grade": "Grade 2 or 3",
+   "work_type": "Contract, part-time options",
+   "pay": "$94,478.80–$123,905.60",
+   "closes": "",
+   "url": "https://au.seek.com/psychologist-hospital-jobs/in-Melbourne-CBD-&-Inner-Suburbs-Melbourne-VIC",
+   "source": "SEEK",
+   "match": "maybe",
+   "why": "Eating disorders is a specialty she hasn't worked in, and it is a contract role with an unconfirmed closing date.",
+   "first_seen": "2026-10-05",
+   "times_seen": 1,
+   "last_seen": "2026-10-05",
+   "key": "royalchildrenshospital|psychologistgrade2or3",
+   "status": "open",
+   "is_new": true
+  },
   {
    "title": "Clinical Psychologist, Mental Health and Wellbeing",
    "employer": "Eastern Health",
@@ -82,7 +168,7 @@
    "last_seen": "2026-10-04",
    "key": "easternhealth|clinicalpsychologistmentalhealthandwellbeing",
    "status": "open",
-   "is_new": true
+   "is_new": false
   },
   {
    "title": "Clinical or Health Psychologist – Grade 2 – Community Therapy Service",
@@ -102,27 +188,27 @@
    "last_seen": "2026-10-04",
    "key": "northernhealth|clinicalorhealthpsychologistgrade2communitytherapyservice",
    "status": "open",
-   "is_new": true
+   "is_new": false
   },
   {
    "title": "Clinical Psychologist – Pain Service",
    "employer": "Mercy Hospital for Women",
    "location": "Heidelberg",
-   "distance_km": 9,
+   "distance_km": 8,
    "grade": "No grade listed",
    "work_type": "Part time",
    "pay": "Not listed",
    "closes": "",
    "url": "",
-   "source": "workopia.io (aggregator)",
+   "source": "Job board listing",
    "match": "maybe",
-   "why": "Close to home and asks for 5+ years' experience, which fits her. No grade is listed and it is unverified, so check Mercy Health's own careers page.",
+   "why": "Close to home and suits her complex and chronic health experience. The listing asks for 5+ years' experience, which may mean Grade 3, and no grade or closing date was shown.",
    "first_seen": "2026-10-04",
-   "times_seen": 1,
-   "last_seen": "2026-10-04",
+   "times_seen": 2,
+   "last_seen": "2026-10-05",
    "key": "mercyhospitalforwomen|clinicalpsychologistpainservice",
    "status": "open",
-   "is_new": true
+   "is_new": false
   },
   {
    "title": "Grade 2 Psychologist, parental leave, Mental Health & Wellbeing Local",
@@ -142,7 +228,7 @@
    "last_seen": "2026-10-04",
    "key": "accesshealthandcommunity|grade2psychologistparentalleavementalhealthwellbeinglocal",
    "status": "open",
-   "is_new": true
+   "is_new": false
   },
   {
    "title": "Paediatric Registered Psychologist, Grade 2",
@@ -162,13 +248,13 @@
    "last_seen": "2026-10-04",
    "key": "accesshealthandcommunity|paediatricregisteredpsychologistgrade2",
    "status": "open",
-   "is_new": true
+   "is_new": false
   },
   {
    "title": "Clinical or Health Psychologist – Grade 2",
    "employer": "Northern Health",
-   "location": "Epping/Bundoora",
-   "distance_km": 11.5,
+   "location": "Site not confirmed (Epping or Bundoora in range, Craigieburn not)",
+   "distance_km": 14,
    "grade": "Grade 2",
    "work_type": "Not listed",
    "pay": "Not listed",
@@ -176,10 +262,10 @@
    "url": "https://www.nh.org.au/work-with-us/current-job-vacancies/",
    "source": "SEEK",
    "match": "maybe",
-   "why": "Covers acute, subacute, community and outpatient psychological services in an MDT. The focus looks more medical and health psychology than mental health. No direct ad URL was captured, so the link is Northern Health's vacancies page.",
+   "why": "Covers acute, subacute, community and outpatient settings in an MDT, which fits well. The site and closing date are unconfirmed, and the older 'CTS and HARP' version of this ad is from a previous year.",
    "first_seen": "2026-10-03",
-   "times_seen": 1,
-   "last_seen": "2026-10-03",
+   "times_seen": 2,
+   "last_seen": "2026-10-05",
    "key": "northernhealth|clinicalorhealthpsychologistgrade2",
    "status": "open",
    "is_new": false
@@ -208,18 +294,18 @@
    "title": "Grade 2 Clinical Psychologist (casual)",
    "employer": "Peter MacCallum Cancer Centre",
    "location": "Parkville",
-   "distance_km": 17,
+   "distance_km": 14,
    "grade": "Grade 2",
    "work_type": "Casual, up to 76 hours per fortnight",
    "pay": "$47.81–$54.10 per hour plus casual loading",
    "closes": "",
    "url": "https://au.jora.com/Peter-Maccallum-Cancer-Centre-jobs",
-   "source": "Jora and Indeed",
+   "source": "Jora, SEEK, Indeed",
    "match": "maybe",
-   "why": "Casual role in psychosocial oncology, a specialty she hasn't worked in. Closing date not found.",
+   "why": "Casual, and psycho-oncology is a specialty she hasn't worked in. It could not be confirmed that the ad is still open.",
    "first_seen": "2026-10-03",
-   "times_seen": 2,
-   "last_seen": "2026-10-04",
+   "times_seen": 3,
+   "last_seen": "2026-10-05",
    "key": "petermaccallumcancercentre|grade2clinicalpsychologist",
    "status": "open",
    "is_new": false
@@ -268,19 +354,19 @@
    "title": "Grade 2 Clinical or Health Psychologist – Casual",
    "employer": "Royal Melbourne Hospital",
    "location": "Parkville",
-   "distance_km": 17,
+   "distance_km": 14,
    "grade": "Grade 2",
-   "work_type": "Casual, multidisciplinary team, flexible across services",
+   "work_type": "Casual",
    "pay": "Not listed",
    "closes": "",
    "url": "https://au.seek.com/psychologist-jobs/in-All-Melbourne-VIC/casual-vacation",
-   "source": "SEEK",
+   "source": "SEEK, Indeed",
    "match": "maybe",
-   "why": "Casual Grade 2 role, so hours will vary. Probably the same ad as the two earlier RMH casual entries.",
+   "why": "Flexible assessment and therapy across hospital medical and mental health services. It is casual, more medical than community mental health, and may no longer be open.",
    "first_seen": "2026-10-02",
-   "times_seen": 3,
-   "last_seen": "2026-10-04",
-   "key": "royalmelbournehospital|grade2clinicalorhealthpsychologist",
+   "times_seen": 4,
+   "last_seen": "2026-10-05",
+   "key": "royalmelbournehospital|grade2clinicalorhealthpsychologistcasual",
    "status": "open",
    "is_new": false
   },
@@ -288,18 +374,18 @@
    "title": "Psychologist G2",
    "employer": "Austin Health",
    "location": "Heidelberg",
-   "distance_km": 9,
+   "distance_km": 8,
    "grade": "Grade 2",
    "work_type": "Not listed",
    "pay": "Not listed",
-   "closes": "11:59pm Tuesday 6 October 2026 (from an Indeed copy; confirm on Austin's site)",
+   "closes": "Tue 6 Oct 2026, 11.59pm (from a matching board copy; check the full ad)",
    "url": "https://careers.austin.org.au/go/Mental-Health/7901410/",
-   "source": "Austin Health careers (closing date from Indeed)",
+   "source": "Austin Health careers, Indeed",
    "match": "strong",
-   "why": "Grade 2 role close to home that suits her clinical endorsement and MDT experience. Closes in three days, so apply quickly.",
+   "why": "Grade 2 role in a public mental health service about 8 km from home, suiting her risk assessment, formulation and MDT background. Closes in two days, so apply now.",
    "first_seen": "2026-10-01",
-   "times_seen": 4,
-   "last_seen": "2026-10-04",
+   "times_seen": 5,
+   "last_seen": "2026-10-05",
    "key": "austinhealth|psychologistg2",
    "status": "open",
    "is_new": false
@@ -468,18 +554,18 @@
    "title": "Mental Health Clinician",
    "employer": "Neami National",
    "location": "South Morang",
-   "distance_km": 10,
+   "distance_km": 13,
    "grade": "No grade listed",
-   "work_type": "Full-time",
-   "pay": "$100,064–$105,123",
+   "work_type": "Full time",
+   "pay": "$94,927–$106,210 plus super (Health Professional Level 2)",
    "closes": "",
    "url": "https://www.ethicaljobs.com.au/members/neami/mental-health-clinician-south-morang-3?categories=41",
-   "source": "SEEK",
+   "source": "EthicalJobs",
    "match": "maybe",
-   "why": "Close to home and familiar employer, with pay near Psychologist Grade 2. The snippet didn't show the title, so it may not be the ad you flagged, and the role isn't psychologist-specific.",
+   "why": "The pay band is very close to the Victorian P2 range and she knows Neami well. It is a generic clinician role open to nurses, social workers and OTs, and it was posted 10 Jul 2026, so it may have closed.",
    "first_seen": "2026-09-29",
-   "last_seen": "2026-10-03",
-   "times_seen": 4,
+   "last_seen": "2026-10-05",
+   "times_seen": 5,
    "key": "neaminational|mentalhealthclinician",
    "status": "open",
    "is_new": false
