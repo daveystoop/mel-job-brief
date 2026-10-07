@@ -1,24 +1,24 @@
 {
- "updated": "2026-10-06T23:13:36.193369+00:00",
- "today": "2026-10-07",
- "summary": "The market is thin today, and none of these roles could be confirmed as open because closing dates weren't visible. The best leads are the Northern Health P2 clinician roles and the Parkville hospital roles, so check those employer pages directly this week.",
+ "updated": "2026-10-07T23:43:02.823317+00:00",
+ "today": "2026-10-08",
+ "summary": "Genuine Grade 2 psychologist ads near Eltham are thin today, and the Eastern Health Lilydale role is the one clear match. The rest are casual, fixed-term or narrow specialties, and closing dates could not be confirmed on most ads, so check each employer's page before applying.",
  "criteria": "Grade 2 roles within 25 km of Eltham VIC 3095",
  "profile": [
   [
    "Registration",
-   "Endorsed Clinical Psychologist (AHPRA general + clinical endorsement)"
-  ],
-  [
-   "Qualifications",
-   "MPsych (Clinical), MAPS, MACPA"
+   "Endorsed Clinical Psychologist, MPsych (Clinical), MAPS, MACPA"
   ],
   [
    "Experience",
-   "15+ years across community mental health, acute inpatient and complex care; 2.5 years as Senior Practice Leader"
+   "15+ years across community mental health, acute inpatient and complex care"
+  ],
+  [
+   "Leadership",
+   "2.5 years as Senior Practice Leader supervising staff"
   ],
   [
    "Current role",
-   "Clinical Psychologist, Emble Allied Health (Mill Park), since 2023"
+   "Clinical Psychologist, private allied health (Mill Park), since 2023"
   ],
   [
    "Strengths",
@@ -33,8 +33,8 @@
    "Anxiety, depression, OCD, emotional dysregulation, trauma, severe and persistent mental illness"
   ],
   [
-   "Location and scope",
-   "Eltham base; north and north-east easiest. Open to public, community, complex care, private and senior roles"
+   "Location",
+   "Eltham; north and north-east are easy commutes, west and south-east are long"
   ]
  ],
  "runs": [
@@ -79,6 +79,12 @@
    "found": 9,
    "new": 1,
    "open": 27
+  },
+  {
+   "date": "2026-10-08",
+   "found": 6,
+   "new": 0,
+   "open": 27
   }
  ],
  "jobs": [
@@ -86,21 +92,21 @@
    "title": "Clinical Psychologist – Grade 2 or 3 (psycho-oncology)",
    "employer": "Royal Melbourne Hospital",
    "location": "Parkville",
-   "distance_km": 17,
+   "distance_km": 20,
    "grade": "Grade 2 or 3",
-   "work_type": "Part-time",
+   "work_type": "Part time",
    "pay": "Not listed",
    "closes": "",
-   "url": "https://au.seek.com/psychological-assessment-jobs/in-All-Melbourne-VIC",
+   "url": "https://au.seek.com/supervisor-psychology-jobs/in-Melbourne-VIC-3000",
    "source": "SEEK",
    "match": "maybe",
-   "why": "The combined Grade 2/3 range suits her seniority, but oncology (Familial Cancer Centre, Breast Oncology) is a specialty she hasn't worked in. The SEEK snapshot was from August.",
+   "why": "The grade fits and the work covers clinical and health psychology, mainly the Familial Cancer Centre and Breast Oncology. The specialty is new to her and it was only seen in an August 2026 SEEK snapshot, so it may not still be open.",
    "first_seen": "2026-10-07",
-   "times_seen": 1,
-   "last_seen": "2026-10-07",
+   "times_seen": 2,
+   "last_seen": "2026-10-08",
    "key": "royalmelbournehospital|clinicalpsychologistgrade2or3",
    "status": "open",
-   "is_new": true
+   "is_new": false
   },
   {
    "title": "Mental Health Clinician – Community",
@@ -243,21 +249,21 @@
    "is_new": false
   },
   {
-   "title": "Grade 2 Psychologist, parental leave, Mental Health & Wellbeing Local",
+   "title": "Grade 2 Psychologist, parental leave cover (Yarra Ranges Mental Health and Wellbeing Local)",
    "employer": "Access Health and Community",
    "location": "Lilydale",
-   "distance_km": 19,
+   "distance_km": 18,
    "grade": "Grade 2",
-   "work_type": "Max-term, 0.6 EFT, parental leave cover",
+   "work_type": "Contract (max term), part time 0.6 EFT (posted 16 Jul 2026)",
    "pay": "Not listed",
    "closes": "",
    "url": "https://www.ethicaljobs.com.au/members/iechsheadspace/grade-2-psychologist-lilydale?locations=1",
-   "source": "Ethical Jobs",
+   "source": "Ethical Jobs and Access Health careers",
    "match": "maybe",
-   "why": "Fixed-term and part-time, with a long road trip from Eltham. Posted 16 July 2026, so it is probably closed.",
+   "why": "Good fit, but it is fixed-term and only 0.6 EFT. It is also the same consortium as the Eastern Health role.",
    "first_seen": "2026-10-04",
-   "times_seen": 2,
-   "last_seen": "2026-10-07",
+   "times_seen": 3,
+   "last_seen": "2026-10-08",
    "key": "accesshealthandcommunity|grade2psychologistparentalleavementalhealthwellbeinglocal",
    "status": "open",
    "is_new": false
@@ -266,18 +272,18 @@
    "title": "Paediatric Registered Psychologist, Grade 2",
    "employer": "Access Health and Community",
    "location": "Doncaster",
-   "distance_km": 10,
+   "distance_km": 9,
    "grade": "Grade 2",
-   "work_type": "Part time",
+   "work_type": "Part time (posted 2 Jul 2026)",
    "pay": "Not listed",
    "closes": "",
    "url": "https://www.ethicaljobs.com.au/members/iechsheadspace/registered-psychologist-paediatrics-community-child-family-service-doncaster?locations=1",
    "source": "Ethical Jobs",
    "match": "maybe",
-   "why": "Close to home, but it is a paediatric and developmental role she hasn't done. Posted 2 July 2026, so it is probably closed.",
+   "why": "The ad asks for paediatric, developmental disability and early intervention experience, which she has not done.",
    "first_seen": "2026-10-04",
-   "times_seen": 3,
-   "last_seen": "2026-10-07",
+   "times_seen": 4,
+   "last_seen": "2026-10-08",
    "key": "accesshealthandcommunity|paediatricregisteredpsychologistgrade2",
    "status": "open",
    "is_new": false
@@ -326,18 +332,18 @@
    "title": "Grade 2 Clinical Psychologist (casual, psychosocial oncology)",
    "employer": "Peter MacCallum Cancer Centre",
    "location": "Parkville",
-   "distance_km": 17,
+   "distance_km": 20,
    "grade": "Grade 2",
-   "work_type": "Casual, up to 76 hours per fortnight",
-   "pay": "$47.81–$54.10 per hour plus casual loading",
+   "work_type": "Casual",
+   "pay": "$47.80–$54.10 per hour plus casual loading",
    "closes": "",
    "url": "https://au.jora.com/Peter-Maccallum-Cancer-Centre-jobs",
-   "source": "Jora and Indeed",
+   "source": "SEEK and Jora",
    "match": "maybe",
-   "why": "Casual role in an oncology specialty. The original careers.vic.gov.au ad closed 3 March 2026, and a Jora copy listed about 35 days ago may be a re-advertisement.",
+   "why": "Pay and grade fit, but it is casual only and a psycho-oncology specialty. Two similar Peter Mac ads appear to be the same role.",
    "first_seen": "2026-10-03",
-   "times_seen": 5,
-   "last_seen": "2026-10-07",
+   "times_seen": 6,
+   "last_seen": "2026-10-08",
    "key": "petermaccallumcancercentre|grade2clinicalpsychologist",
    "status": "open",
    "is_new": false
@@ -563,21 +569,21 @@
    "is_new": false
   },
   {
-   "title": "Clinical Psychologist Grade 2, Mental Health and Wellbeing Local",
+   "title": "Clinical Psychologist – Grade 2 (Mental Health and Wellbeing Local, Towards Change team)",
    "employer": "Eastern Health",
    "location": "Lilydale",
-   "distance_km": 25,
+   "distance_km": 18,
    "grade": "Grade 2",
-   "work_type": "Permanent, full time",
+   "work_type": "Permanent, full time (posted 26 Jun 2026)",
    "pay": "Not listed",
    "closes": "",
    "url": "https://careers.easternhealth.org.au/job/Eastern-Health-Clinical-Psychologist-Grade-2-VIC-3128/1360642166/",
    "source": "Eastern Health careers",
-   "match": "maybe",
-   "why": "Suits her trauma-informed, recovery-oriented work, but the ad was posted 26 Jun 2026, has no visible closing date and may already be filled. Lilydale is at the edge of her commute range.",
+   "match": "strong",
+   "why": "Ongoing Grade 2 clinical role in community mental health, close to her Neami and community background. A Box Hill listing on the Eastern Health board is probably the same ad under the 3128 postcode.",
    "first_seen": "2026-09-29",
-   "last_seen": "2026-10-01",
-   "times_seen": 2,
+   "last_seen": "2026-10-08",
+   "times_seen": 3,
    "key": "easternhealth|clinicalpsychologistgrade2mentalhealthandwellbeinglocal",
    "status": "open",
    "is_new": false
@@ -586,19 +592,19 @@
    "title": "Mental Health Clinician – South Morang",
    "employer": "Neami National",
    "location": "South Morang",
-   "distance_km": 13,
-   "grade": "No grade listed",
-   "work_type": "Full time",
-   "pay": "$94,927–$106,210 plus super (Health Professional Level 2)",
+   "distance_km": 12,
+   "grade": "Health Professional Level 2 (Neami levels; no psychologist grade listed)",
+   "work_type": "Permanent, full time",
+   "pay": "$94,927–$106,210",
    "closes": "",
    "url": "https://www.ethicaljobs.com.au/members/neami/mental-health-clinician-south-morang-3?categories=41",
    "source": "Ethical Jobs",
    "match": "maybe",
-   "why": "Familiar employer, with triage, care coordination and evidence-based therapies. The ad was posted 10 July 2026 and may be closed.",
+   "why": "The pay band closely matches Grade 2 psychologist pay and she knows Neami. It is a clinician role rather than a psychologist-titled one, and the page looked about 90 days old, so it may no longer be open.",
    "first_seen": "2026-09-29",
-   "last_seen": "2026-10-07",
-   "times_seen": 7,
-   "key": "neaminational|mentalhealthclinician",
+   "last_seen": "2026-10-08",
+   "times_seen": 8,
+   "key": "neaminational|mentalhealthcliniciansouthmorang",
    "status": "open",
    "is_new": false
   },
